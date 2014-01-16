@@ -82,7 +82,39 @@ or
  \end{math}
 \section{Echelle d'étude}
 \begin{enumerate}
- \item Echelle microscopique \rightarrow
+ \item Echelle microscopique => atome
+ \item Echelle macroscopique => au niveau du système
+ \item Echelle mesoscopique => echelle intermediaire
 \end{enumerate}
+\section{Grandeur Thermodynamique}
+\subsection{Vocabulaire}
+Un système thermodynamique est défini par une surface réelle ou fictive.
+\begin{enumerate}
+ \item Système fermé : Pas d'échange de matière avec l'extérieur.
+ \item Système ouverte : echange de matière possible.
+ \item Système adiabatique : Pas d'échange thermique
+ \item Système isolé : Pas d'échange d'énergie ou de matière avec l'extérieur.
+\end{enumerate}
+\subsection{Equilibre thermodynamique}
+\paragraph{Def :}
+Dans un système à l'equilibre thermodynamique les grandeur définis à l'echelle mesoscopique sont constantes.
+\paragraph{Propriété:}
+Tout système isolé tends vers un état d'équilibre.
+
+\subsection{Equation d'état}
+\subsubsection{Paramètre d'état}
+\paragraph{Def:}
+Des paramètres d'états sont des grandeurs macroscopique définissant le système et susceptible d'etre modifié lors d'une transformation.
+
+\subsubsection{Equation d'état}
+\paragraph{Def :}
+La relation reliant les différents paramètres d'état est l'équation d'état.
+
+\subsubsection{Notion de phase}
+\paragraph{Def :}
+Une phase est une parti d'un système et les grandeurs sont des fonctions continues de l'espace.
+
+\section{Le gaz parfait}
+\subsection{Définition :}
 
 \end{document} 

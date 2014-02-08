@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.13 (TeX Live 2013/dev) (format=pdflatex 2013.5.20)  16 JAN 2014 14:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.13 (TeX Live 2013/dev) (format=pdflatex 2013.5.20)  8 FEB 2014 11:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -282,30 +282,63 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 49.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 49.
- [2] [3] (./coursthermo.aux) ) 
+ [2] [3]
+Chapter 2.
+
+Overfull \hbox (5.16638pt too wide) in paragraph at lines 184--184
+[]\OT1/cmr/bx/n/14.4 Fluide compr^^Sessible, Etudes des at-mo-sph^^Reres 
+ []
+
+
+Overfull \hbox (1.6264pt too wide) in paragraph at lines 185--185
+[]\OT1/cmr/bx/n/12 Pr^^Sesentation du mod^^Reles de l'atomosph^^Rere isotherme 
+
+ []
+
+[4
+
+] [5]
+Chapter 3.
+
+Overfull \hbox (10.47285pt too wide) in paragraph at lines 227--230
+[]\OT1/cmr/m/n/10 Lentes, on est alors tout au long de la trans-for-ma-tion dan
+s un ^^Setat d'^^Sequilibre.
+ []
+
+
+Overfull \hbox (1.40805pt too wide) in paragraph at lines 227--230
+\OT1/cmr/m/n/10 On parle de trans-for-ma-tion quasi sta-tique. La trans-for-ma-
+tion est r^^Seversible
+ []
+
+[6
+
+] [7] [8] (./coursthermo.aux) ) 
 Here is how much of TeX's memory you used:
- 464 strings out of 493499
- 4667 string characters out of 3143791
- 55841 words of memory out of 3000000
- 3829 multiletter control sequences out of 15000+200000
+ 465 strings out of 493499
+ 4675 string characters out of 3143791
+ 57841 words of memory out of 3000000
+ 3830 multiletter control sequences out of 15000+200000
  8808 words of font info for 31 fonts, out of 3000000 for 9000
  953 hyphenation exceptions out of 8191
- 23i,6n,19p,174b,181s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on coursthermo.pdf (5 pages, 125108 bytes).
+ 23i,12n,19p,191b,181s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb>
+Output written on coursthermo.pdf (10 pages, 166215 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

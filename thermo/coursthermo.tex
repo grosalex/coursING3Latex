@@ -138,4 +138,239 @@ Modèle de Van der Waals :
 b est le volume occupé par les particulles et rends compte des interractions entre les particulles.
 
 \section{Dilatation et compréssibilité d'un système}
+Coefficient thermodynamique :
+
+\begin{math}
+ \alpha = \frac{1}{V} \frac{dV}{dt}
+\end{math}
+
+\begin{math}
+ X_T = \frac{1}{V} \frac{\partial V}{\partial t}
+\end{math}
+
+\begin{math}
+ \beta = \frac{1}{P} \frac{\partial P}{\partial T}
+\end{math}
+
+\chapter{Elements de statique des fluides}
+\section{Introduction}
+Il y a deux états pour les fluides :
+\begin{enumerate}
+ \item gaz
+ \item liquide
+\end{enumerate}
+Hypothèse :
+\begin{enumerate}
+ \item On suppose les milieux contine
+ \item On travaille au niveau mesoscopique
+ \item Le fluide est supposé parfait
+\end{enumerate}
+\section{Relation de la statique des fluides}
+\begin{equation}
+  \overrightarrow{grad}(P) = \mu \overrightarrow{g}
+\end{equation}
+Pour la démo voir le cours.
+
+\section{Cas des fluides incompréssible}
+\subsection{Présentation}
+ici on pose 
+\begin{math}
+ \mu(M)=\mu_0
+\end{math}
+On a alors 
+\begin{math}
+ \frac{d D}{d z} = \mu_0 g
+\end{math}
+\section{Fluide compréssible, Etudes des atmosphères}
+\subsection{Présentation du modèles de l'atomosphère isotherme}
+
+
+\begin{math}
+ \mu = \mu(z) = constante
+\end{math}
+
+\begin{math}
+ T=T_0=constante
+\end{math}
+
+\begin{math}
+ g=constante
+\end{math}
+
+On a 
+\begin{math}
+ \frac{d P}{d z}=- \mu (z) g
+\end{math}
+or 
+\begin{math}
+ \mu(z) = \frac{m}{V} = \frac{nM}{V}
+\end{math}
+et 
+
+\begin{math}
+ PV= nrT_0 
+\end{math}
+
+\section{Poussé d'archimède}
+\paragraph{Def:}Resultante des forces de pressions.
+\begin{equation}
+ \Pi=-\mu Vg
+\end{equation}
+\chapter{1 er principe de la thermodynamique}
+\section{Présentation}
+On étudie dans ce chapitre l`'evolution d'un système d'un état d'équilibre à un autre
+
+\paragraph{Les transformations} peuvent etre :
+\begin{enumerate}
+ \item brusque : paramètres intensif ne sont alors pas définis pendant la transformation. Ils le sont lors des états initiaux et finaux.
+ Les transformations sont irreverssibles.
+ \item Lentes, on est alors tout au long de la transformation dans un état d'équilibre. On parle de transformation quasi statique.
+ La transformation est réversible si on passe par les mêmes états d'équilibre dans un sens de la transformation ou dans l'autre. Cela implique
+ l'absence de phénomène dissipatifs.
+\end{enumerate}
+\paragraph{Phénomènes dissipatifs}: ou causse d'irreverssibilités :
+\begin{enumerate}
+ \item frottement sec ou visqueux
+ \item phénomène de diffusion
+ \item Inhomogeinité des systèmes
+ \item inelasticités
+\end{enumerate}
+
+\section{Energie d'un système}
+\paragraph{Définition :}On a pour un système
+\begin{equation}
+ E = U + E_{c_{macro}} + E_{p_{ext}}
+\end{equation}
+\begin{equation}
+ U = E_{c_{micro}} + E_{p_{interne}}
+\end{equation}
+\section{Transfert d'énéergie}
+\subsection{Transfert thermique}
+on note Q le transfert thermique au cours d'une transformation.
+
+Il existe trois mode de transfert thermique :
+\begin{enumerate}
+ \item par conduction : louche en argent dans soupe
+ \item par convection : mouvement de l'air dans l'amphi
+ \item par rayonnement : chocolat au soleil
+\end{enumerate}
+
+\subsection{Travail des forces de pressions}
+On considère un piston remplit d'un gaz. L'on applique une force extérieur sur le piston (on comprime le gaz).
+Calculons \begin{math}
+           W(\overrightarrow{F_{ext}})
+          \end{math}
+.
+
+\begin{math}
+ W(\overrightarrow{F_{ext}})= \int_x^{x+dx}\overrightarrow{F_{ext}} \overrightarrow{dl} = \int_x^{x+dx}\overrightarrow{F_{ext}} \overrightarrow{U_x} dx \overrightarrow{U_x} 
+ =F_{ext} dx
+\end{math}
+
+or on a que 
+\begin{math}
+ W(F_{gaz\rightarrow piston})=- W(\overrightarrow{F_{ext}}) = -F_{ext} dx
+\end{math}
+
+et que : 
+\begin{math}
+ \overrightarrow{F_{piston\rightarrow gaz}}=-\overrightarrow{F_{gaz\rightarrow piston}} 
+\end{math}
+
+donc :
+\begin{math}
+ W(\overrightarrow{F_{piston\rightarrow gaz}}) = F_{ext} dx
+\end{math}
+
+On note \begin{math}
+         \delta W = W_{x\rightarrow x+dx}
+        \end{math} le travail élémentaire
+
+Donc \begin{math}
+      \delta W(\overrightarrow{F_{piston\rightarrow gaz}}) = F_{ext} dx = NRJ recu par le gaz
+     \end{math}
+
+\begin{math}
+ \delta W_{recu par le gaz} = P_{ext} S dx = -P_{ext} dV
+\end{math}
+\paragraph{NB}: A l'equilibre mcanique on à :
+\begin{math}
+ P_{ext}* S = F_{ext} = P_{gaz}*S = P*S => P_{ext} = P
+\end{math}
+
+Si la transformation est quasi static alors on a \begin{math}
+                                                  \delta W = -P dV
+                                                 \end{math}
+
+(je noterai la suite de cette partie plus tard)
+
+\subsection{Autres forces de travail}
+Avec une résistance electrique on aura :
+\begin{math}
+ \delta W = Ri^2dt=\frac{U^2}{R}dt
+\end{math}
+\subsection{1er principe}
+\paragraph{Enoncé :}Pour un système fermé on a :
+\begin{equation}
+ \Delta U_{1\rightarrow2}= W_{1\rightarrow2} + Q_{1\rightarrow2}
+\end{equation}
+et \begin{math}
+    d U = \delta W + \delta Q
+   \end{math}
+\paragraph{NB:}
+Pour les gazs parfaits nous avons \begin{math}
+                                   dU=C_VdT
+                                  \end{math}
+ou 
+
+\begin{math}
+C_V = 
+\end{math}
+capacite thermique a valeur constante
+
+\paragraph{Exemple :}cf cours
+\section{Fonction Entahalpie}
+\paragraph{Definition :}est une fonction d'état extensive défini par 
+\begin{math}
+ H=U+PV
+\end{math}
+
+Et si on intégre on a 
+\begin{math}
+ \Delta H_{1\rightarrow2}= Q_{1\rightarrow2}
+\end{math}
+\section{Capacité thermique}
+\paragraph{Loi de Joul :}Pour les gazs parfaits U et H sont uniquement fonction de T.
+\paragraph{Définition}
+\begin{math}
+ C_V = \frac{\partial U}{\partial T}
+\end{math}
+et 
+\begin{math}
+ C_P = \frac{\partial H}{\partial T}
+\end{math}
+
+On pose \begin{math}
+         \gamma=\frac{C_P}{C_V}
+        \end{math}
+et on a \begin{math}
+         H=U+PV=U+nRT
+        \end{math}
+
+Donc l'on peut établir la relation de Mayer :
+\begin{equation}
+ C_P-C_V=nR
+\end{equation}
+\section{Loi de Laplace}
+Pour un  gaz parfait, lors d'une transformation reversible ou seul le trvail des forces de pression interviennent on a :
+\begin{equation}
+ PV^\gamma=constante
+\end{equation}
+\begin{equation}
+P^{1-\gamma}T^{\gamma} = constante 
+\end{equation}
+\begin{equation}
+ TV^{\gamma-1}=constante
+\end{equation}
+
 \end{document} 
